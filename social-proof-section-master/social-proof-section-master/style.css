@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --kubiki_iasamnisferi: #511f50;
+    --rated_stars: #5b3759;
+    --verified: #bc609a;
+    --big_text_color: #521e50;
+    --fontebi: 'League Spartan', sans-serif;
+    --patara_text_color: #8a7d87;
+}
+body {
+    background: #ffffff;
+    font-family: var(--fontebi);
+
+}
+.third {
+    width: 350px;
+    height: 230px;
+    background-color: var(--kubiki_iasamnisferi);
+    margin-top: 300px;
+    margin-left: 1180px;
+    border-radius: 10px;
+}
+.second {
+    width: 350px;
+    height: 230px;
+    background-color: var(--kubiki_iasamnisferi);
+    margin-top: -260px;
+    margin-left: 790px;
+    border-radius: 10px;
+}
+.first {
+    width: 350px;
+    height: 230px;
+    background-color: var(--kubiki_iasamnisferi);
+    margin-top: -260px;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+.big_text {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.ten {
+    color: var(--big_text_color);
+    font-size: 60px;
+    font-weight: 700;
+}
+.little_text {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 15px;
+    color: var(--patara_text_color);
+    font-weight: 700;
+}
+.kaci {
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+.qali {
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+.qali_ {
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+.verified {
+    margin-left: 100px;
+    color: var(--verified);
+    margin-top: 5px;
+    
+}
+.name_ {
+    margin-left: 100px;
+    margin-top: -55px;
+    color: white;
+}
+.name__ {
+    margin-left: 100px;
+    margin-top: -45px;
+    color: white;
+}
+.name___ {
+    margin-left: 100px;
+    margin-top: -45px;
+    color: white;
+}
+.text_ {
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.text__ {
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.text___ {
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.zedavarskvlavi {
+    margin-left: 810px;
+    margin-top: -720px;
+    padding-top: 18px;
+    padding-left: 30px;
+    width: 400px;
+    height: 35px;
+    background: #f7f2f8;
+    border-radius: 5px;
+}
+.varskvlavis_div__ {
+    margin-left: 950px;
+    margin-top: 15px;
+    padding-top: 18px;
+    padding-left: 30px;
+    width: 400px;
+    height: 35px;
+    background: #f7f2f8;
+    border-radius: 5px;
+}
+.varskvlavis_div___ {
+    margin-left: 1090px;
+    margin-top: 15px;
+    padding-top: 18px;
+    padding-left: 30px;
+    width: 400px;
+    height: 35px;
+    background: #f7f2f8;
+    border-radius: 5px;
+}
+.top_stars {
+    margin-left: 150px;
+    margin-top: -18px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.middle_stars {
+    margin-left: 150px;
+    margin-top: -18px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.bottom_stars {
+    margin-left: 150px;
+    margin-top: -18px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.media_br {
+    display: none;
+}
+@media (max-width:375px) {
+    .desktop_br {
+        display: none;
+    }
+    .media_br {
+        display: block;
+    }
+    .little_text {
+        font-size: 60px;
+        margin-left: 100px;
+        width: 1300px;
+        height: 400px;
+        margin-top: 340px;
+    }
+    .ten {
+        font-size: 130px;
+        font-weight: 800;
+    }
+    .big_text {
+        width: 1100px;
+        height: 300px;
+        margin-left: 230px;
+    }
+    .zedavarskvlavi {
+        margin-left: 80px;
+        margin-top: -3100px;
+        width: 1200px;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+    .varskvlavis_div__ {
+        margin-left: 80px;
+        width: 1200px;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+    .varskvlavis_div___ {
+        margin-left: 80px;
+        width: 1200px;
+        height: 200px;
+        margin-bottom: 1300px;
+    }
+    .third {
+        margin-left: 100px;
+        margin-top: 900px;
+        margin-bottom: 50px;
+        position: relative;
+        width: 1200px;
+        height: 700px;
+        border-radius: 30px;
+    }
+    .second {
+        margin-left: 100px;
+        margin-top: 0px;
+        position: relative;
+        width: 1200px;
+        height: 700px;
+        margin-bottom: 50px;
+        border-radius: 30px;
+    }
+    .first {
+        margin-left: 100px;
+        margin-top: 0px;
+        position: relative;
+        width: 1200px;
+        height: 700px;
+        border-radius: 30px;
+    }   
+    .star_image {
+        width: 60px;
+        height: 60px;
+        
+    }
+    .star_image_one {
+        width: 60px;
+        height: 60px; 
+        margin-left: 420px;
+    }
+    .top_stars {
+        font-size: 60px;
+        margin-left: 230px;
+        margin-top: 30px;
+    }
+    .middle_stars {
+        font-size: 60px;
+        margin-left: 230px;
+        margin-top: 30px;
+    }
+    .bottom_stars {
+        font-size: 60px;
+        margin-left: 230px;
+        margin-top: 30px;
+    }
+    .kaci {
+        width: 150px;
+        height: 150px;
+    }
+    .qali {
+        width: 150px;
+        height: 150px;
+    }
+    .qali_ {
+        width: 150px;
+        height: 150px;
+    }
+    .verified {
+        margin-left: 300px;
+        
+        font-size: 40px;
+    }
+    .name___ {
+        margin-left: 300px;
+        font-size: 40px;
+        margin-top: -110px;
+    }
+    .text___ {
+        font-size: 60px;
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+    .name__ {
+        margin-left: 300px;
+        font-size: 40px;
+        margin-top: -110px;
+    }
+    .text__ {
+        font-size: 60px;
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+    .name_ {
+        margin-left: 300px;
+        font-size: 40px;
+        margin-top: -110px;
+    }
+    .text_ {
+        font-size: 60px;
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+}
+
